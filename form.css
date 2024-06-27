@@ -1,9 +1,16 @@
+body {
+    background-color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1 {
+    text-align: center;
+}
 .container {
     padding: 20px;
     text-align: center;
 }
 .subscribe-form {
-    background-color: #f9f9f9;
+    background-color: rgba(255, 255, 255, 0.808);
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
