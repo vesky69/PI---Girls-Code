@@ -11,7 +11,8 @@ body {
       text-align: center;
   }
   .subscribe-form {
-      background-color: rgba(255, 255, 255, 0.808);
+      /*background-color: rgba(255, 255, 255, 0.808);*/
+      background-color: rgba(216, 216, 216, 0.808);
       padding: 20px;
       border-radius: 5px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -32,7 +33,7 @@ body {
       width: 100%;
       padding: 10px;
       margin: 5px 0;
-      border: 1px solid #ccc;
+      border: 1px solid #929292;
       border-radius: 5px;
   }
   .subscribe-form input[type="submit"] {
@@ -40,4 +41,18 @@ body {
       color: white;
       border: none;
       cursor: pointer;
+
   }
+  .subscribe-form input[type="submit"]:hover {
+    background-color: #2c00a7;
+  }
+  p {
+    text-align: center;
+    color: white;
+}
+a {
+    color:  #3c08ca;
+}
+a:hover {
+    color: #2c00a7;
+}
